@@ -1,3 +1,9 @@
+ul {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-left: 40px;
+}
+
 .sticky-nav {
   position: -webkit-sticky;
   position: sticky;
@@ -227,9 +233,17 @@
   .hero-overlay {
     padding: 40px 20px;
   }
+  .div-block {
+    margin-top: 40px;
+    padding: 30px 30px 30px 40px;
+  }
 }
 
 @media screen and (max-width: 479px) {
+  ul {
+    padding-left: 20px;
+    text-align: left;
+  }
   .sticky-nav {
     padding: 0px;
   }
@@ -252,6 +266,16 @@
   }
   .centered-container {
     text-align: left;
+  }
+  .div-block {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+  }
+  .title {
+    margin-bottom: 20px;
+    font-size: 35px;
+    line-height: 46px;
   }
 }
 
