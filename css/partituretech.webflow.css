@@ -133,6 +133,7 @@ ul {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  border-left: 1px solid #000;
   background-color: rgba(199, 126, 25, 0.01);
 }
 
