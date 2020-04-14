@@ -415,7 +415,7 @@ ul {
   margin-bottom: 40px;
   padding: 20px 50px;
   border-radius: 10px;
-  background-color: #42a5fc;
+  background-color: #304fff;
   box-shadow: -2px 10px 19px -5px rgba(0, 0, 0, 0.36);
   font-size: 16px;
   font-weight: 700;
@@ -511,6 +511,11 @@ ul {
 
 .title-container {
   margin-bottom: 40px;
+}
+
+.image {
+  margin-bottom: 25px;
+  margin-left: -30px;
 }
 
 @media screen and (max-width: 991px) {
@@ -654,6 +659,9 @@ ul {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
   }
+  .image {
+    margin-left: 0px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -762,6 +770,9 @@ ul {
   .centerer {
     position: static;
     width: 100%;
+  }
+  .image {
+    max-width: 150px;
   }
 }
 
